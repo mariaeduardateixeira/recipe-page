@@ -3,6 +3,86 @@
 /*- Mobile: 375px
 - Desktop: 1440px*/
 
+@media screen and (min-width:640px) {
+  body, html{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    line-height: 1.8em;  
+
+}
+ section > p{
+  color: rgba(0, 0, 0, 0.778);
+}
+  #container img{
+    max-width:100%;
+    width: 700px;
+}
+
+section > h1{
+  margin: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  line-height: 1.2em;
+  
+}
+
+main > section {
+  padding-top: 0px;
+  padding: 0px 34px;
+  text-align: justify;
+}
+main>section>aside{
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(95, 158, 160, 0.22);
+  border-radius: 10px;
+}
+
+aside > ul{
+  margin: 15px;
+}
+
+main > section >h2, aside>h2{
+  margin-top: 15px;
+  margin-bottom: 7px;
+  margin-left: 1px;
+  color: brown;
+}
+
+main > section > ul, section > ol{
+  padding: 20px 20px 20px 20px;
+}
+
+main > section > p{
+  margin-bottom: 17px;
+  padding: 0 10px 10px 10px;
+  text-align: justify;
+}
+  
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+main > section > table, th, td{
+  border-collapse: collapse;
+  padding: 10px 40px;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.486);
+}
+
+main > section > table{
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.num{
+  color: brown;
+}
+}
+
 @media screen and (min-width: 768px){
   body, html{
     height: 100vh;
@@ -17,8 +97,8 @@
   color: rgba(0, 0, 0, 0.778);
 }
   #container img{
-    min-width:685px;
-    max-height:768px;
+    max-width:100%;
+    
 }
 
 section > h1{
@@ -88,20 +168,99 @@ main > section > table{
     background-color: antiquewhite;
   }
   main{
-    min-width: 400px;
-    max-width: 590px;
-    margin-left: 150px;
+    width: 600px;
+    margin-left: 200px;
     margin-right: 150px;
     padding-left: 55px;
     padding-right: 55px;
     background-color: white;
 }
-section > #container>img{
-  min-width:545px;
-  max-height:590px;
+#container img{
+  max-width:100%;
   border-radius: 10px;
   margin-bottom: 12px;
 }
 
+}
+
+@media screen and (min-width:1200px) {
+  body, html{
+    main{
+      width: 600px;
+      margin-left:270px;
+      margin-right: 150px;
+      padding-left: 55px;
+      padding-right: 55px;
+      background-color: white;
+  }
+}
+ section > p{
+  color: rgba(0, 0, 0, 0.778);
+}
+  #container img{
+    max-width:100%;
+}
+
+section > h1{
+  margin: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  line-height: 1.2em;
+  
+}
+
+main > section {
+  padding-top: 0px;
+  padding: 0px 34px;
+  text-align: justify;
+}
+main>section>aside{
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(95, 158, 160, 0.22);
+  border-radius: 10px;
+}
+
+aside > ul{
+  margin: 15px;
+}
+
+main > section >h2, aside>h2{
+  margin-top: 15px;
+  margin-bottom: 7px;
+  margin-left: 1px;
+  color: brown;
+}
+
+main > section > ul, section > ol{
+  padding: 20px 20px 20px 20px;
+}
+
+main > section > p{
+  margin-bottom: 17px;
+  padding: 0 10px 10px 10px;
+  text-align: justify;
+}
+  
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+main > section > table, th, td{
+  border-collapse: collapse;
+  padding: 10px 40px;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.486);
+}
+
+main > section > table{
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.num{
+  color: brown;
+}
+  
 }
 

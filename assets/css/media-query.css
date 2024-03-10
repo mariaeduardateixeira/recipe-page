@@ -17,8 +17,8 @@
   color: rgba(0, 0, 0, 0.778);
 }
   #container img{
-    max-width:auto;
-    max-height:auto;
+    min-width:685px;
+    max-height:768px;
 }
 
 section > h1{
@@ -96,8 +96,8 @@ main > section > table{
     padding-right: 55px;
     background-color: white;
 }
-#container img{
-  max-width:590px;
+section > #container>img{
+  min-width:545px;
   max-height:590px;
   border-radius: 10px;
   margin-bottom: 12px;
